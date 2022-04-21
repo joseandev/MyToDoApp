@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100vh;
+}
+
+.insert {
+    width: 80%;
+    margin: 10px auto;
+}
+
+
+/* Altura  a los botones y al input */
+#input, #add, .save {
+    height: 32px;
+    border: none;
+}
+
+#input {
+    width: 80%;
+    margin: 0;
+}
+
+#add {
+    width: 18%;
+    height: 32px;
+    font-weight: bold;
+    margin-left: 0;
+    border-radius: 5px;
+}
+
+
+.ul-container ul li {
+    width: 90%;
+    list-style: none;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Texto de las tareas */
+.text-item {
+    color: white;
+    font-size: 26px;
+    height: 35px;
+    display: inline-block;
+    padding: 0 10px;
+    margin-left: 5px;
+    width: 70%;
+    background-color: rgb(76, 155, 129);
+}
+
+.deleteBtn {
+    width: 15%;
+    background-color: red;
+    border: none;
+}
+
+.editBtn {
+    width: 15%;
+    background-color: rgb(90, 90, 255);
+    border: none;
+}
+
+input[type='checkbox'] {
+    transform: scale(1.5);
+}
+
+input {
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.empty {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+@media screen and (min-width: 750px) {
+    .container {
+        width: 500px;
+        height: 80vh;
+        margin: 5% auto;
+    }
+
+    .ul-container ul {
+        height: 61vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+.opacity {
+    opacity: .4;
+}
+
+.save {
+    width: 18%;
+    height: 32px;
+    margin-left: 0;
+    border-radius: 5px;
+}
